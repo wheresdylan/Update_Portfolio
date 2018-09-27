@@ -106,9 +106,12 @@
             <div class="clearfix row-fourty"></div>
 
             <!-- Top image -->
-            <figure class="one row">
-                <img class="scaletofit" src="images/home/1.jpg" alt="">
-            </figure>
+            <div>
+                <figure class="one row">
+                    <img id="imageHeader"class="scaletofit"   style="position:absolute;"src="https://media2.giphy.com/media/zXmbOaTpbY6mA/giphy-downsized.gif" alt="">
+                    <img id ="imagePicture"style="position: relative;margin-top: -147.5px"src="images/dylanCool.png" alt="">
+                </figure>
+            </div>
 
 
             <!-- Name/Job title -->
@@ -123,9 +126,9 @@
 
                 <ul class="socialIcons large float-right">
                     <li class="linkedin">
-                        <a class="tooltip" data-tooltipText="LinkedIn" data-tooltipDirection="s" target="_blank" href="http://themeforest.net/user/LGLab"></a>
+                        <a class="tooltip" data-tooltipText="LinkedIn" data-tooltipDirection="s" target="_blank" href="https://www.linkedin.com/in/dylan-marini-578513167/"></a>
                     </li>
-                    <li class="facebook">
+                    <!-- <li class="facebook">
                         <a class="tooltip" data-tooltipText="Facebook" data-tooltipDirection="s" target="_blank" href="http://themeforest.net/user/LGLab"></a>
                     </li>
                     <li class="twitter">
@@ -136,7 +139,7 @@
                     </li>
                     <li class="instagram last">
                         <a class="tooltip" data-tooltipText="Instagram" data-tooltipDirection="s" target="_blank" href="http://themeforest.net/user/LGLab"></a>
-                    </li>
+                    </li> -->
                 </ul>
 
             </div>
@@ -186,13 +189,11 @@
 
                 <h4>
                     <span class="faIcon small dark male"></span>ABOUT ME</h4>
-                <p>Praesent
-                    <strong>pellentesque hendrerit</strong> ipsum vitae rhoncus. Nullam porta placerat lorem eget iaculis. Sed auctor,
-                    magna at porta auctor, enim sapien commodo mauris, non lobortis ligula libero et felis. Suspendisse rutrum
-                    libero dui, a porta mi tincidunt quis. Etiam id semper dui. Proin id erat pellentesque, sagittis lectus
-                    nec, cursus dolor.
-                    <span class="highlightBg">Vivamus nec tortor orci.</span> Quisque sit amet lobortis massa, ac posuere enim. Curabitur sagittis
-                    malesuada massa volutpat porttitor.</p>
+                <p>
+                    <a href="https://github.com/wheresdylan" style="font-weight: bolder;">GitHub Link</a>
+                    <br>
+                    My name is Dylan Marini and I am a Web-designer/developer with experience in front-end and back-end technologies.  Most of my life I have been working at HEB in several different positions including book keeping, management, cashier, deli etc.  About two years ago I woke up and decided I wanted to change my life.  After some research I came by coding, pulled up code academy, began teaching myself Ruby and absolutely fell in love with it.  It was history from then on.  Started going to ACC for computer science a couple years ago, took several programming classes and then signed up for the coding Boot Camp at the University of Texas.  I enjoy sarcasm, sports, video games, friends and having fun working with a team to accomplish goals.
+                </p>
                 <!-- End intro text -->
 
                 <div class="clearfix row"></div>
@@ -204,29 +205,29 @@
                         <span class="faIcon small dark sitemap"></span>SERVICES</h4>
                     <ul>
                         <li>
-                            <a href="#tabs-1">Web Design</a>
+                            <a href="#tabs-1">Web Design/Development</a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="#tabs-2">Front-end</a>
                         </li>
                         <li>
                             <a href="#tabs-3">Back-end</a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <div id="tabs-1">
 
-                        <p>Aenean egestas nisl at urna pretium suscipit. Nam purus nisi, mattis
-                            <strong>dignissim consectetur</strong> vel, sollicitudin pulvinar risus. Morbi aliquam scelerisque bibendum.
-                            Sed iaculis fringilla risus, sit amet pretium felis faucibus sed. Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit. Pellentesque consectetur hendrerit diam eu malesuada. Fusce ac diam
-                            nec nibh
-                            <strong>vulputate mollis</strong> ut quis dui. Praesent sed magna mauris.</p>
+                        <p>My skills include building a full stack web application utilizing technologies in the
+                            <strong>front-end</strong> and the
+                            <strong>back-end</strong>. I use creative web design with HTML, CSS, Bootstrap or Materialize to build
+                            responsive, sharp looking websites. The websites become interactive with my skills in Javascript,
+                            JQuery and building databases with API interaction or user input using MongoDB or MySQL. I also
+                            have experience with React, Node.Js and Express.Js.</p>
 
 
                     </div>
 
-                    <div id="tabs-2">
+                    <!-- <div id="tabs-2">
                         <p>Donec metus libero, sollicitudin ut laoreet dapibus, suscipit
                             <strong>sit amet eros</strong>. Nam lacinia urna id quam placerat a feugiat elit placerat. Proin dignissim
                             blandit tincidunt. Pellentesque in lectus in ipsum varius dapibus. Donec sed turpis massa, nec
@@ -251,7 +252,7 @@
                             <strong>dolor at lorem</strong>. Pellentesque habitant morbi tristique senectus et netus et malesuada
                             fames ac turpis egestas. Curabitur eleifend, mi id aliquam ullamcorper, elit tellus dignissim
                             nibh, eget bibendum odio erat ut ante.</p>
-                    </div>
+                    </div> -->
 
                 </div>
                 <!--end tabs-->
@@ -274,11 +275,12 @@
                 <h4>
                     <span class="faIcon small star"></span>WHAT I'M GOOD AT</h4>
                 <!--Start accordion-->
-                <ul class="acc" id="acc">
+                <!-- <ul class="acc" id="acc"> -->
+                <ul id="acc">
                     <li>
                         <h4>
-                            <span class="icon"></span>HTML5</h4>
-                        <div class="acc-section">
+                            <span class="icon"></span>HTML</h4>
+                        <!-- <div class="acc-section">
                             <div class="acc-content">
                                 Aliquam nec nisl non est dignissim
                                 <strong>ullamcorper mauris</strong>. Suspendisse nec mauris ligula, at laoreet diam. Aenean est elit,
@@ -286,24 +288,24 @@
                                 non gravida eros dictum. Mauris lobortis egestas nisl, sit amet blandit
                                 <strong>purus tincidunt</strong> at. Integer sit amet orci eu est interdum.
                             </div>
-                        </div>
+                        </div> -->
                     </li>
                     <li>
                         <h4>
-                            <span class="icon"></span>CSS3</h4>
-                        <div class="acc-section">
+                            <span class="icon"></span>CSS</h4>
+                        <!-- <div class="acc-section">
                             <div class="acc-content">
                                 Maecenas at viverra ante. Pellentesque habitant morbi
                                 <strong>tristique senectus</strong> et netus et malesuada fames ac turpis egestas. Aliquam tristique
                                 sollicitudin eleifend. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
                                 <strong>posuere cubilia</strong> Curae; Donec id urna vitae nunc rutrum convallis sit amet vel elit.
                             </div>
-                        </div>
+                        </div> -->
                     </li>
                     <li>
                         <h4>
                             <span class="icon"></span>jQUERY</h4>
-                        <div class="acc-section">
+                        <!-- <div class="acc-section">
                             <div class="acc-content">
                                 Vivamus lectus nibh, dignissim in accumsan in, tempus
                                 <strong>eget urna</strong>. Aliquam id quam in magna varius pharetra ac eget est. Nullam ornare gravida
@@ -311,13 +313,13 @@
                                 <strong>aliquet tellus</strong>, id lacinia justo euismod sit amet. Fusce iaculis neque felis, vitae
                                 imperdiet orci.
                             </div>
-                        </div>
+                        </div> -->
                     </li>
 
                     <li>
                         <h4>
                             <span class="icon"></span>JAVASCRIPT</h4>
-                        <div class="acc-section">
+                        <!-- <div class="acc-section">
                             <div class="acc-content">
                                 Curabitur ut purus magna,
                                 <strong>vitae tincidunt</strong> neque. Vestibulum gravida erat eu quam pulvinar ultrices. Vestibulum
@@ -325,12 +327,12 @@
                                 ligula quis ipsum iaculis tristique. Pellentesque eu lectus
                                 <strong>quis nunc blandit</strong> vulputate.
                             </div>
-                        </div>
+                        </div> -->
                     </li>
                     <li>
                         <h4>
                             <span class="icon"></span>C++</h4>
-                        <div class="acc-section">
+                        <!-- <div class="acc-section">
                             <div class="acc-content">
                                 Curabitur ut purus magna,
                                 <strong>vitae tincidunt</strong> neque. Vestibulum gravida erat eu quam pulvinar ultrices. Vestibulum
@@ -338,18 +340,50 @@
                                 ligula quis ipsum iaculis tristique. Pellentesque eu lectus
                                 <strong>quis nunc blandit</strong> vulputate.
                             </div>
-                        </div>
+                        </div> -->
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>BOOTSTRAP</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>MATERIALIZE</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>API INTERACTION</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>NODE.JS</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>MYSQL</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>MONGODB</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>REACT.JS</h4>
+                    </li>
+                    <li>
+                        <h4>
+                            <span class="icon"></span>EXPRESS.JS</h4>
                     </li>
                 </ul>
                 <!--//End accordion-->
 
 
                 <!--Start twitter-->
-                <h4>
+                <!-- <h4>
                     <span class="faIcon small twittersign"></span>LATEST TWEETS</h4>
                 <div class="whiteBg pad20">
                     <div class="tweets"></div>
-                </div>
+                </div> -->
 
                 <!--End twitter-->
 
@@ -362,42 +396,50 @@
                 <div class="one row-ten">
                     <h4>
                         <span class="faIcon small signal"></span>MY SKILLS</h4>
+                        <span style="font-size:175%;color:yellow;display:inline-block;">&starf; Randomly Generated</span>
                 </div>
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="60" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten0" data-percent="60" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
-                    <h4>HTML5</h4>
+                    <h4>HTML</h4>
                 </div>
 
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="70" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten1" data-percent="70" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
-                    <h4>CSS3</h4>
+                    <h4>CSS</h4>
                 </div>
 
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="58" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten2" data-percent="58" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
                     <h4>jQUERY</h4>
                 </div>
 
 
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="63" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten3" data-percent="63" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
                     <h4>JAVASCRIPT</h4>
                 </div>
 
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="32" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten4" data-percent="32" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
                     <h4>C++</h4>
                 </div>
 
                 <div class="onefourth tight progresscircles row-thirty center">
-                    <div class="arc row-ten" data-percent="85" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                    <div class="arc row-ten5" data-percent="85" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
                         data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
                     <h4>Humor</h4>
+                </div>
+
+
+                <div class="onefourth tight progresscircles row-thirty center">
+                    <div class="arc row-ten6" data-percent="45" data-sign="%" data-size="190" data-fontSize="40" data-stokewidth="30" data-innerStrokeColor="#fefefd"
+                        data-strokeColor="#129078" data-circleColor="" data-textColor="#fefefd"></div>
+                    <h4>Node.js</h4>
                 </div>
 
 
@@ -441,27 +483,33 @@
                     <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
-                            <span class="highlightBg">Sept. 2009 to Jul. 2012</span>
+                            <span class="highlightBg">Oct. 2011 to Jul. 2018</span>
                         </div>
                         <div class="school">
-                            <strong>Redware Limited - Graphic Designer</strong>
+                            <strong>HEB - employee</strong>
                         </div>
-                        <p>Vivamus lectus nibh, dignissim in accumsan in, tempus
-                            <strong>eget urna</strong>. Aliquam id quam in magna varius pharetra ac eget est. Nullam ornare gravida
-                            volutpat. Nunc at quam eget ligula vehicula imperdiet in id tortor. Donec vehicula
-                            <strong>aliquet tellus</strong>, id lacinia justo euismod sit amet fusce.</p>
+                        <p>The majority of my life I have been working at HEB but I have taken on several opporunities and responsibilities
+                            during this time. In my management role I would take on tasks, create a goal, and work with a
+                            team to succeed. Leading and motivating a group of partners, increasing the customers over all
+                            experience in the store. Task management, punctuation, keeping focus and having fun was always
+                            an important part of my position as a leader. Another major position I was responsible for was
+                            book keeping. I was in charge of making sure the store income was taken care of and documenting
+                            the mistakes, profits, and losses for any currency at the location I was at.</p>
                         <p>
-                            <strong>Lorem ipsum:</strong>
+                            <strong>Positions:</strong>
                         </p>
                         <ul class="disc">
-                            <li>Ipsum vitae rhoncus</li>
-                            <li>Ipsum vitae rhoncus</li>
-                            <li>Ipsum vitae rhoncus</li>
+                            <li>Management</li>
+                            <li>Book Keeper</li>
+                            <li>Front End Specialist</li>
+                            <li>Deli</li>
+                            <li>Bakery</li>
+                            <li>General Merchandise</li>
                         </ul>
 
                     </li>
 
-                    <li>
+                    <!-- <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
                             <span class="highlightBg">Sept. 2009 to Jul. 2012</span>
@@ -482,9 +530,9 @@
                             <li>Ipsum vitae rhoncus</li>
                         </ul>
 
-                    </li>
+                    </li> -->
 
-                    <li>
+                    <!-- <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
                             <span class="highlightBg">Sept. 2009 to Jul. 2012</span>
@@ -505,7 +553,7 @@
                             <li>Ipsum vitae rhoncus</li>
                         </ul>
 
-                    </li>
+                    </li> -->
 
                 </ul>
 
@@ -524,27 +572,30 @@
                     <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
-                            <span class="highlightBg">Sept. 2009 to Jul. 2012</span>
+                            <span class="highlightBg">jan. 2017 to current</span>
                         </div>
                         <div class="school">
-                            <strong>Harvard University - Graphic Design Major</strong>
+                            <strong>ACC - Computer Science</strong>
                         </div>
-                        <p>Praesent pellentesque hendrerit ipsum vitae rhoncus. Nullam porta placerat lorem eget iaculis.</p>
+                        <p>I have taken several classes at ACC involving programming fundamentals, abstract datatypes, and putting
+                            together small back end programs. Currently working toward a degree in Computer Science</p>
 
                     </li>
 
                     <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
-                            <span class="highlightBg">Sept. 2006 to Jul. 2009</span>
+                            <span class="highlightBg">July. 2018 to Oct. 2018</span>
                         </div>
                         <div class="school">
-                            <strong>College of Arts - Art Sciences Degree</strong>
+                            <strong>UT Austin - Coding BootCamp</strong>
                         </div>
-                        <p>Praesent pellentesque hendrerit ipsum vitae rhoncus. Nullam porta placerat lorem eget iaculis.</p>
+                        <p>A student at the University of Texas Coding Bootcamp. I am learning everything
+                            I need to know for full stack development including HTML, CSS, Node.Js, Express, MySQL, Javascript,
+                            Jquery and more. Graduation date is set for October, 9th.</p>
 
                     </li>
-
+                    <!-- 
                     <li>
                         <div class="date">
                             <span class="faIcon tiny dark calendar"></span>
@@ -553,7 +604,7 @@
                         <div class="school">
                             <strong>Italia University - Masters of all Degrees</strong>
                         </div>
-                        <p>Praesent pellentesque hendrerit ipsum vitae rhoncus. Nullam porta placerat lorem eget iaculis.</p>
+                        <p>Praesent pellentesque hendrerit ipsum vitae rhoncus. Nullam porta placerat lorem eget iaculis.</p> -->
 
                     </li>
 
@@ -564,9 +615,8 @@
                     <span class="faIcon small dark heart"></span>INTERESTS</h4>
 
 
-                <p>Vivamus lectus nibh, dignissim in accumsan in, tempus
-                    <strong>eget urna</strong>. Aliquam id quam in magna varius pharetra ac eget est. Nullam ornare gravida volutpat.
-                    Nunc at quam eget ligula vehicula imperdiet in id tortor.</p>
+                <p>I love playing music, video games, and watching football but my greatest passion is code. Nothing beats the
+                    feeling of struggling on a problem for hours and hours and then finally figuring out the solution</p>
 
 
 
@@ -584,10 +634,10 @@
             <div class="onefifth row-thirty center">
                 <span class="faIcon bordered globe tooltip" data-tooltipText="Travelling" data-tooltipDirection="n"></span>
             </div>
-
+            <!-- 
             <div class="onefifth row-thirty center">
                 <span class="faIcon bordered camera tooltip" data-tooltipText="Photography" data-tooltipDirection="n"></span>
-            </div>
+            </div> -->
 
             <div class="onefifth row-thirty center">
                 <span class="faIcon bordered martini tooltip" data-tooltipText="Drinking cocktails" data-tooltipDirection="n"></span>
@@ -647,73 +697,75 @@
             </article>
 
 
-            <figure class="onefourth row" data-largeMedia="https://pinkzerogames.files.wordpress.com/2015/08/promotional.png"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+            <figure class="onefourth row" data-largeMedia="https://pinkzerogames.files.wordpress.com/2015/08/promotional.png" data-mediaType="image"
+                data-largeTitle="Restaurant Roulette" data-largeDesc="An application that decides for you what kind of cuisine to eat when two people have a disagreement.  First choose your location, then each user chooses up to two cuisines and let the magic happen!"
                 data-url="https://wheresdylan.github.io/project_one/" data-target="_blank">
                 <img class="scaletofit pic" src="https://www.casino.org/blog/wp-content/uploads/roulette-wheel.jpg" alt="" />
                 <span class="hover"></span>
             </figure>
 
             <figure class="onefourth row" data-largeMedia="http://www.abacabdorkingtaxis.co.uk/wp-content/uploads/2017/05/Abacab-Train-station-Taxis.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+                data-mediaType="image" data-largeTitle="Train Scheduler" data-largeDesc="Use this firebase application to enter a train name, destination, first train time and frequency too see the next arrival time and how many minutes away it is."
                 data-url="https://wheresdylan.github.io/train-scheduler/" data-target="_blank">
                 <img class="scaletofit pic" src="https://i.pinimg.com/originals/08/1c/bd/081cbd65fbd4c890606960d4a4f18a29.jpg" alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="http://11points.com/wp-content/uploads/2012/09/dominatehangman-1600.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+            <figure class="onefourth row" data-largeMedia="http://11points.com/wp-content/uploads/2012/09/dominatehangman-1600.jpg" data-mediaType="image"
+                data-largeTitle="HangMan" data-largeDesc="The classic hangman game with a little twist to it for the football fans."
                 data-url="https://wheresdylan.github.io/Word-Guess-Game/" data-target="_blank">
                 <img class="scaletofit pic" src="https://i.chzbgr.com/full/6788007424/h637BADE6/" alt="" />
                 <span class="hover"></span>
             </figure>
 
             <figure class="onefourth row" data-largeMedia="https://static1.squarespace.com/static/55c672ece4b029ac822d96b7/55de4862e4b08a3733428ae1/5605bd4ae4b0b215acc1fbce/1443216753223/giphhhhhyyyyy.gif"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+                data-mediaType="image" data-largeTitle="GifTastic" data-largeDesc="A simple application that lets you add words and then see giphs that come up with that word on click."
                 data-url="https://wheresdylan.github.io/GifTastic/" data-target="_blank">
                 <img class="scaletofit pic" src="https://media.giphy.com/media/Axqr1hNEmGJiw/giphy.gif" alt="" />
                 <span class="hover"></span>
             </figure>
 
             <figure class="onefourth row" data-largeMedia="https://i.pinimg.com/originals/28/c1/84/28c18462e6a8ffba1c7f9c30fad50af9.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+                data-mediaType="image" data-largeTitle="SouthPark Battle" data-largeDesc="Everybody's favorite southpark family.  Choose your battleground, favorite character, and battle your opponents wisely in an attempt to defeat them all."
                 data-url="https://wheresdylan.github.io/unit-4-game/" data-target="_blank">
-                <img class="scaletofit pic" src="https://vignette.wikia.nocookie.net/southpark/images/9/9c/Coon-and-Friends.png/revision/latest?cb=20170926100230" alt="" />
+                <img class="scaletofit pic" src="https://vignette.wikia.nocookie.net/southpark/images/9/9c/Coon-and-Friends.png/revision/latest?cb=20170926100230"
+                    alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="https://www.mapleridge.ca/calendar/Trivia%20Night%202018%20April.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+            <figure class="onefourth row" data-largeMedia="https://www.mapleridge.ca/calendar/Trivia%20Night%202018%20April.jpg" data-mediaType="image"
+                data-largeTitle="T.V. Trivia" data-largeDesc="Take a chance at this fun t.v. style trivia game, can you get them all right?"
                 data-url="https://wheresdylan.github.io/TriviaGame/" data-target="_blank">
                 <img class="scaletofit pic" src="https://abovethelaw.com/wp-content/uploads/2015/10/trivia-pic.jpg" alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="./the_file_name.svg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
+            <figure class="onefourth row" data-largeMedia="./the_file_name.svg" data-mediaType="image" data-largeTitle="Store Management"
+                data-largeDesc="Utilizing Node.Js and MySQL this will create a list of items, departments and prices that can be manipulated by either the customer, manager, or supervisor to keep track of inventory or buy and add items to departments."
                 data-url="https://github.com/wheresdylan/bamazon_SQL" data-target="_blank">
                 <img class="scaletofit pic" src="https://i.ytimg.com/vi/hGZX_SA7lYg/maxresdefault.jpg" alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="https://www.elegantthemes.com/blog/wp-content/uploads/2017/05/coming-soon.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
-                data-url="http://themeforest.net/user/LGLab" data-target="_blank">
-                <img class="scaletofit" src="http://quickcocinero.com/wp-content/uploads/2016/08/coming-soon-500x500.png" alt="" />
+            <figure class="onefourth row" data-largeMedia="https://i.pinimg.com/originals/16/11/2f/16112fc9258a26cc0e3d58600f95dbb1.jpg"
+                data-mediaType="image" data-largeTitle="Zombie Click Game" data-largeDesc="An app Made with React where the user clicks on an image without clicking the same image twice.  Can you click all twelve zombies?"
+                data-url="https://wheresdylan.github.io/Clicky_Game/" data-target="_blank">
+                <img class="scaletofit" src="https://static.viget.com/react-logo-wide.png?mtime=20160411121644" alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="https://www.elegantthemes.com/blog/wp-content/uploads/2017/05/coming-soon.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
-                data-url="http://themeforest.net/user/LGLab" data-target="_blank">
-                <img class="scaletofit" src="http://quickcocinero.com/wp-content/uploads/2016/08/coming-soon-500x500.png" alt="" />
+            <figure class="onefourth row" data-largeMedia="https://images5.alphacoders.com/415/415257.jpg" data-mediaType="image" data-largeTitle="Burger Town"
+                data-largeDesc="A simple burger app that uses Node.js and Mongodb as a database.  Add a burger of your choice and then eat it!"
+                data-url="https://sheltered-temple-40666.herokuapp.com/" data-target="_blank">
+                <img class="scaletofit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOEC5PkceLGXlfxyruLG_7N_SjY0XFGHs843pGBMGfkJPjvIgnHA"
+                    alt="" />
                 <span class="hover"></span>
             </figure>
 
-            <figure class="onefourth row" data-largeMedia="https://www.elegantthemes.com/blog/wp-content/uploads/2017/05/coming-soon.jpg"
-                data-mediaType="image" data-largeTitle="SINGLE IMAGE" data-largeDesc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lobortis magna a erat varius laoreet. Sed facilisis, urna sed pulvinar euismod, velit ante ullamcorper quam, at auctor erat justo id lacus."
-                data-url="http://themeforest.net/user/LGLab" data-target="_blank">
-                <img class="scaletofit" src="http://quickcocinero.com/wp-content/uploads/2016/08/coming-soon-500x500.png" alt="" />
+            <figure class="onefourth row" data-largeMedia="http://bar-legacy.com/img/main_6.jpg"
+                data-mediaType="image" data-largeTitle="ShotSpot" data-largeDesc="A full stack website that allows you to select unique, cheap, or happy hour drinks, see what others have in the area or add a bar of your own."
+                data-url="https://cryptic-dawn-51247.herokuapp.com/" data-target="_blank">
+                <img class="scaletofit" src="https://tipsybartender.com/wp-content/uploads/2018/01/Bong-Water-Shot.jpg" alt="" />
                 <span class="hover"></span>
             </figure>
 
@@ -767,7 +819,7 @@
 
             <div class="onethird row whiteBg pad20 boxsizing">
 
-                <h4 class="row">Matt Johnson</h4>
+                <h4 class="row">Dylan Marini</h4>
                 <ul class="education">
 
                     <li>
@@ -775,11 +827,11 @@
                             <span class="faIcon tiny dark envelope"></span>
                             <span class="highlightBg">Address</span>
                         </div>
-                        <p>103 Prince Street, New York
-                            <br />NY 10012
+                        <p>4604 Greenridge Terrace, Austin
+                            <br />TX 78745
                             <br /> USA</p>
                     </li>
-
+                    <!-- 
                     <li>
                         <div class="date">
                             <span class="faIcon tiny dark desktop"></span>
@@ -788,7 +840,7 @@
                         <p>
                             <a class="link" href="http://themeforest.net/user/LGLab">http://mattjohnsondesign.com</a>
                         </p>
-                    </li>
+                    </li> -->
 
                     <li>
                         <div class="date">
@@ -796,7 +848,7 @@
                             <span class="highlightBg">Email</span>
                         </div>
                         <p>
-                            <a class="link" href="mailto:mattjohnson@gmail.com">mattjohnson@gmail.com</a>
+                            <a class="link" href="mailto:dylan.marini@g.austincc.edu">wheresdylan1104@gmail.com</a>
                         </p>
                     </li>
 
@@ -805,7 +857,7 @@
                             <span class="faIcon tiny dark phone"></span>
                             <span class="highlightBg">Phone</span>
                         </div>
-                        <p>(212) 226-3126</p>
+                        <p>(512) 516-2347</p>
                     </li>
 
 
@@ -908,8 +960,8 @@
 </body>
 
 <style>
-    .pic{
-        height:225px !important;
+    .pic {
+        height: 225px !important;
     }
 </style>
 

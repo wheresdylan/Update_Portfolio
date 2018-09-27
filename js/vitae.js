@@ -1187,6 +1187,16 @@ jQuery(document).ready(function() {
 		}
 		
 	}
+
+	for (var i = 0; i < 7; i++){
+
+		var newNumber = Math.floor(Math.random() * 100) + 1;
+		
+		$(".row-ten" + i).attr('data-percent', newNumber);
+
+	}
+
+	
 	
 
 		
