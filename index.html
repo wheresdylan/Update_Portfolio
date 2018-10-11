@@ -877,10 +877,36 @@
                 <div id="message"></div>
 
                 <form method="POST" action="https://formspree.io/wheresdylan1104@gmail.com">
-                    <input type="email" name="email" placeholder="Your email">
-                    <textarea name="message" placeholder="Your message"></textarea>
+
+                    <fieldset>
+
+                        <input name="name" type="text" id="name" size="30" value="Name*" />
+
+
+                        <input name="email" type="text" id="email" size="30" value="Email*" />
+
+                        <textarea name="comments" cols="40" rows="3" id="comments">Message*</textarea>
+
+
+                        <input type="submit" class="submit button normal reverted" id="submit" value="SEND" />
+
+                        
+                  <!-- <p class="verifyText">Are you human?<span class="required">*</span></p>
+                  <label for="verify" accesskey="V" id="verifyImage"><img src="classes/image.php" alt="Image verification"/></label>
+                  <input name="verify" type="text" id="verify" size="6" value="" style="width: 50px;" /><br /><br /> -->
+                 
+
+                    </fieldset>
+
+                </form>
+
+                <!-- <form method="POST" action="https://formspree.io/wheresdylan1104@gmail.com">
+                    <input name="name" type="text" id="name" size="30" value="Name*" />
+                    <input type="email" name="email" id ="email"placeholder="Your email">
+
+                    <textarea name="message" id="comments"placeholder="Your message"></textarea>
                     <button type="submit">Send</button>
-                  </form>
+                  </form> -->
 
 
 
